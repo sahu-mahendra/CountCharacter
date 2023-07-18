@@ -1,0 +1,18 @@
+// string count characters
+
+package string;
+
+public class CountCharacter {
+
+	public static void main(String[] args) {
+		String string = "the best of the worlds";
+		int count = 0;
+		for (int i = 0; i < string.length(); i++) {
+			if (string.charAt(i) != ' ')
+				count++;
+		}
+		System.out.println("the total number of character in a string:-" + count);
+
+	}
+
+}
